@@ -1,0 +1,74 @@
+/* custom.css */
+
+/* Hide BibBase Footer and unnecessary links like "link" */
+.bibbase-link, .bibtex, .bibbase_page, .bibbase_stats_paper, .bibbase_note, .note {
+    display: none;
+}
+
+/* Hide the BibBase icon for the paper link */
+.bibbase_icon {
+    display: none;
+}
+
+/* Paper group container */
+.bibbase_group {
+    margin: 1em 0;
+    padding: 0.5em;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Year and Title styling */
+.bibbase_paper_titleauthoryear {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+/* Title */
+.bibbase_paper_title {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Authors */
+.bibbase_paper_author {
+    font-size: 1em;
+    color: #555;
+    margin-top: 0.3em;
+    font-style: italic;
+}
+
+/* Year */
+.bibbase_paper .year {
+    font-size: 1em;
+    color: #777;
+}
+
+/* Links for Paper */
+.bibbase_paper_content a {
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Links on hover */
+.bibbase_paper_content a:hover {
+    text-decoration: underline;
+}
+
+/* Group header (Year with count) */
+.bibbase_group_head_icon {
+    color: #007bff;
+}
+
+/* Group count (number of papers) */
+.bibbase_group_count {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Group body */
+.bibbase_group_body {
+    margin-left: 1em;
+}
